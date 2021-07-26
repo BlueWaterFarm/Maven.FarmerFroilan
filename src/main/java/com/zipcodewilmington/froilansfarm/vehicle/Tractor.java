@@ -11,8 +11,6 @@ import java.util.List;
 
 public class Tractor extends Vehicle implements FarmVehicle {
 
-
-
     private int crop;
 
      public Tractor(int crop) {

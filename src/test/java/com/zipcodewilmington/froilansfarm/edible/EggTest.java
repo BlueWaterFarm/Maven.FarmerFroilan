@@ -2,6 +2,7 @@ package com.zipcodewilmington.froilansfarm.edible;
 
 import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.zipcodewilmington.froilansfarm.crops.Egg;
+import javafx.beans.binding.When;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,12 +21,12 @@ public class EggTest {
     @Test
     public void hasBeenFertilizedTest() {
         // Given
-        //Egg fertilizedEgg = new Egg();
+        Egg fertilizedEgg = new Egg();
 
-        // When
-        //boolean setEgg = fertilizedEgg.IsEdible();
+      //  When
+        boolean setEgg = fertilizedEgg.IsEdible();
 
-        // Then
-        //Assert.assertTrue(setEgg);
+      //   Then
+        Assert.assertTrue(setEgg);
     }
 }
